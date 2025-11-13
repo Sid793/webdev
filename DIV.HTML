@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>My Webpage</title>    <style>
+       .login-form {
+         max-width: 300px;
+           margin: 20px auto;
+            padding: 20px;
+         border: 1px solid #ccc;
+          border-radius: 5px;
+           background-color: #f9f9f9;
+       }
+      .login-form input {
+            width: 100%;
+           padding: 10px;
+           margin: 10px 0;
+           border: 1px solid #ccc;
+            border-radius: 3px;
+       }
+       .login-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .login-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+ </head>
+ <body>
+    <h1><center>Student Login</center></h1>
+    <form class="login-form" action="#" method="post">
+        <label for="username">Username or Email:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Login</button>
+        <a href="form.html">click to register</a>
+    </form>
+    </body>
+    </html>
